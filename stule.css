@@ -2,16 +2,42 @@
     max-width: 1200px;
     width: 100%;
     margin: 30px auto;
-    background-color: rgb(210, 247, 245);
+    background-color: #00000029;
+}
+.header-content{
+    background-color: rgb(253, 253, 253);
 }
 .wrapper{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
     
 }
 h1{
     color: #111111;
    
     font-size: 35px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    display: none;
+    flex-direction: column;
+    
+    
+}
+.logo{
+    display: none;
+    background-color: #002D69;
+}
+.burger span{
+    height: 3px;
+    width: 30px;
+    margin: 5px 0;
+    background-color:black;
 }
 .short-p{
     max-width: 600px;
@@ -28,13 +54,19 @@ h1{
     line-height: 44px;
 
 }
+
 body{
     background-color: #F7F7F7;
 }
-
+.box-name{
+    display: flex;
+    justify-content: space-around;
+}
 .box-OUTILS{
     display: flex;
     flex-wrap: wrap;
+    max-width: 500px;
+    width: 100%;
 
 }
 span{
@@ -44,10 +76,13 @@ span{
     background-color: blue;
     margin: 5px;
     color: #FFFFFF;
+
 }
 .box-THEMATIQUES{
     display: flex;
     flex-wrap: wrap;
+    max-width: 500px;
+    width: 100%;
 
 }
 .box-THEMATIQUES span {
@@ -58,19 +93,90 @@ span{
     display: flex;
     flex-wrap: wrap ;
     margin-top: 20px;
+    background-color: #FFFFFF;
+    
 }
+
 .photo-content img{
     max-width: 760px;
     width: 100%;
     background-color: bisque;
     height: 450px;
 }
-.photo-content{
-    
+.article h2 {
+    color: #002D69;
 }
 .article{
     
     max-width: 290px;
     width: 100%;
     margin-left: 50px;
+    background-color: #FFFFFF;
+}
+@media (max-width:1000px){
+    .wrapper{
+        justify-content: center;
+        
+
+    }
+    .header-content{
+        background-color: #F7F7F7;
+    }
+    .article-content{
+        justify-content: center;
+        
+    }
+    .header-content{
+        justify-content: center;
+
+    }
+    body{
+        background-color: #F7F7F7;
+    }
+        
+}
+@media (max-width:500px){
+    .wrapper{
+        justify-content: center;
+    }
+    .header-content{
+        background-color: #00000029;
+    }
+    h1{
+        color: #111111;
+       
+        font-size: 20px;
+    }
+    .short-p{
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .light-p{
+        font-size: 25px;
+        line-height: 20px;
+    
+    }
+    .photo-content img{
+        
+        width: 100%;
+        height: 200px;
+        
+        
+        
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .logo {
+        display: flex;
+
+    }
+    .article-content{
+        justify-content: center;
+    }
+    
+    
 }
