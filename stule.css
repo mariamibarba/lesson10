@@ -2,10 +2,10 @@
     max-width: 1200px;
     width: 100%;
     margin: 30px auto;
-    background-color: #00000029;
+    
 }
 .header-content{
-    background-color: rgb(253, 253, 253);
+    background-color: #F7F7F7;
 }
 .wrapper{
     display: flex;
@@ -56,7 +56,7 @@ header{
 }
 
 body{
-    background-color: #F7F7F7;
+    background-color:#F7F7F7;
 }
 .box-name{
     display: flex;
@@ -120,7 +120,7 @@ span{
 
     }
     .header-content{
-        background-color: #F7F7F7;
+        background-color: #FFFFFF;
     }
     .article-content{
         justify-content: center;
@@ -138,9 +138,11 @@ span{
 @media (max-width:500px){
     .wrapper{
         justify-content: center;
+        background-color: #F7F7F7;
     }
     .header-content{
-        background-color: #F7F7F7;
+        background-color: rgb(253, 253, 253);
+        
     }
     h1{
         color: #111111;
