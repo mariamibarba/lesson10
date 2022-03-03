@@ -140,7 +140,7 @@ span{
         justify-content: center;
     }
     .header-content{
-        background-color: #00000029;
+        background-color: #F7F7F7;
     }
     h1{
         color: #111111;
@@ -176,6 +176,9 @@ span{
     }
     .article-content{
         justify-content: center;
+    }
+    .article p{
+        display: none;
     }
     
     
